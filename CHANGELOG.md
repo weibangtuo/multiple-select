@@ -1,5 +1,10 @@
 ## Changelog
 
+### 3.0.0
+
+- **New:** Removed jQuery dependency.
+- **New:** Added Vue3 support, ended Vue2 support
+
 ### 2.0.9
 
 - **New:** Added `vue3` support.

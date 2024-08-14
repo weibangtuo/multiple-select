@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "highlight.js": "^11.11.1",
-    "jquery": "^3.7.1",
-    "multiple-select": "^2.0.9",
+    "multiple-select": "^3.0.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },

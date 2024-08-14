@@ -89,6 +89,7 @@ class Index extends React.Component {
             <div className="blockElement fourByGridBlock">
               <div className="blockContent">
                 <h2>Features</h2>
+                <MarkdownBlock>- Written in pure JavaScript without other dependencies.</MarkdownBlock>
                 <MarkdownBlock>- Default option allows showing a checkbox.</MarkdownBlock>
                 <MarkdownBlock>- Ability to grouping elements.</MarkdownBlock>
                 <MarkdownBlock>- Supports to show multiple items in a single row.</MarkdownBlock>
@@ -99,13 +100,9 @@ class Index extends React.Component {
 
             <div className="blockElement fourByGridBlock">
               <div className="blockContent">
-                <h2>Latest release v2.0.9 (2025-02-17)</h2>
-                <MarkdownBlock>- **New:** Added `vue3` support.</MarkdownBlock>
-                <MarkdownBlock>- **Update:** Fixed `v-model` select bug with proxy object.</MarkdownBlock>
-                <MarkdownBlock>- **Update:** Fixed children's element change, not updated the select bug.</MarkdownBlock>
-                <MarkdownBlock>- **Update:** Fixed data without clone change refresh the select bug.</MarkdownBlock>
-                <MarkdownBlock>- **Update:** Fix data watch deep caused by the selected bug.</MarkdownBlock>
-                <MarkdownBlock>- **Update:** Improved the indentation style of multiple select with group mode.</MarkdownBlock>
+                <h2>Latest release v3.0.0 (2025-xx-xx)</h2>
+                <MarkdownBlock>- **New:** Removed jQuery dependency.</MarkdownBlock>
+                <MarkdownBlock>- **New:** Added Vue3 support, ended Vue2 support.</MarkdownBlock>
               </div>
             </div>
           </div>
